@@ -67,4 +67,17 @@ public class ConsoleView {
         System.out.print(pesan);
         return sc.nextLine();
     }
+
+    public void tampilkanDaftarPutusan(ArrayList<Putusan> list) {
+        if (list.isEmpty()) {
+            System.out.println("Data tidak ditemukan.");
+            return;
+        }
+
+        System.out.println("\n===== DAFTAR PUTUSAN =====");
+
+        for (Putusan p : list) {
+            p.tampilkan();
+        }
+    }
 }
