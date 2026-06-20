@@ -1,5 +1,6 @@
 package controller;
 
+import util.DataSeeder;
 import util.InputHandler;
 import model.KnowledgeRepository;
 import model.Putusan;
@@ -12,6 +13,7 @@ public class KnowledgeController {
 
     public KnowledgeController(KnowledgeRepository repository) {
         this.repository = repository;
+        DataSeeder.isiDataAwal(repository);
     }
 
     public ArrayList<Putusan> tampilkanSemua() {
