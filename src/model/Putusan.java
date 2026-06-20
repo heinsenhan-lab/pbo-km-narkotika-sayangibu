@@ -87,4 +87,52 @@ public class Putusan extends DokumenHukum implements Laporan {
                 "\nNama Hakim: " + namaHakim +
                 "\nKategori: " + getKategoriHukuman();
     }
+
+    public static int getJumlahDibuat() {
+        return jumlahDibuat;
+    }
+
+    public String getPengadilan() {
+        return pengadilan;
+    }
+
+    public String getTanggalPutusan() {
+        return tanggalPutusan;
+    }
+
+    public String getNamaTerdakwa() {
+        return namaTerdakwa;
+    }
+
+    public int getUmurTerdakwa() {
+        return umurTerdakwa;
+    }
+
+    public String getJenisNarkotika() {
+        return jenisNarkotika;
+    }
+
+    public double getBeratBarangBukti() {
+        return beratBarangBukti;
+    }
+
+    public String getPasalDilanggar() {
+        return pasalDilanggar;
+    }
+
+    public String getPeranTerdakwa() {
+        return peranTerdakwa;
+    }
+
+    public int getVonisHukuman() {
+        return vonisHukuman;
+    }
+
+    public double getVonisDenda() {
+        return vonisDenda;
+    }
+
+    public String getNamaHakim() {
+        return namaHakim;
+    }
 }
