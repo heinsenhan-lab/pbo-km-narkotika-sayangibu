@@ -1,5 +1,7 @@
 package view;
 
+import model.Putusan;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ConsoleView {
