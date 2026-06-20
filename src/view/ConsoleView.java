@@ -80,4 +80,17 @@ public class ConsoleView {
             p.tampilkan();
         }
     }
+
+    public void tampilkanDetail(Putusan p) {
+        if (p == null) {
+            System.out.println("Data tidak ditemukan.");
+        } else {
+            System.out.println("\n===== DETAIL PUTUSAN =====");
+            System.out.println(p);
+        }
+    }
+
+    public void tampilkanPesan(String pesan) {
+        System.out.println(pesan);
+    }
 }
