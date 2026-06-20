@@ -16,3 +16,6 @@ Teknologi:
 - Java
 - MVC Pattern
 - GitHub Collaboration
+
+Link Youtube:
+https://youtu.be/Vdo3NKFCIfs
