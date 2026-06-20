@@ -34,6 +34,30 @@ public class ConsoleView {
         System.out.print("Nama Terdakwa: ");
         data[3] = sc.nextLine();
 
+        System.out.print("Umur Terdakwa: ");
+        data[4] = sc.nextLine();
+
+        System.out.print("Jenis Narkotika: ");
+        data[5] = sc.nextLine();
+
+        System.out.print("Berat Barang Bukti: ");
+        data[6] = sc.nextLine();
+
+        System.out.print("Pasal Dilanggar: ");
+        data[7] = sc.nextLine();
+
+        System.out.print("Peran Terdakwa: ");
+        data[8] = sc.nextLine();
+
+        System.out.print("Vonis Hukuman (bulan): ");
+        data[9] = sc.nextLine();
+
+        System.out.print("Vonis Denda: ");
+        data[10] = sc.nextLine();
+
+        System.out.print("Nama Hakim: ");
+        data[11] = sc.nextLine();
+
         return data;
     }
 }
