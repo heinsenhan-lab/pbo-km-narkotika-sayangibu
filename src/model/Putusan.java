@@ -25,6 +25,27 @@ public class Putusan extends DokumenHukum implements Laporan {
 
     private static int jumlahDibuat = 0;
 
-    
+    public Putusan() {
+        jumlahDibuat++;
+    }
+
+    public Putusan(String nomorPerkara, String pengadilan, String tanggalPutusan,
+                   String namaTerdakwa, int umurTerdakwa, String jenisNarkotika,
+                   double beratBarangBukti, String pasalDilanggar, String peranTerdakwa,
+                   int vonisHukuman, double vonisDenda, String namaHakim) {
+        super(nomorPerkara);
+        this.pengadilan = pengadilan;
+        this.tanggalPutusan = tanggalPutusan;
+        this.namaTerdakwa = namaTerdakwa;
+        this.umurTerdakwa = umurTerdakwa;
+        this.jenisNarkotika = jenisNarkotika;
+        this.beratBarangBukti = beratBarangBukti;
+        this.pasalDilanggar = pasalDilanggar;
+        this.peranTerdakwa = peranTerdakwa;
+        this.vonisHukuman = vonisHukuman;
+        this.vonisDenda = vonisDenda;
+        this.namaHakim = namaHakim;
+        jumlahDibuat++;
+    }
 }
 
